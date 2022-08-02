@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'hero hero mainContent mainContent mainContent'
+        'hero hero mainContent mainContent mainContent'
+        'hero hero mainContent mainContent mainContent'
+        'sideBar sideBar mainContent mainContent mainContent'
+        'sideBar sideBar mainContent mainContent mainContent'
+        'sideBar sideBar extraContent extraContent extraContent'
+        'sideBar sideBar extraContent extraContent extraContent'
+        'relatedImages relatedImages relatedImages RelatedPost RelatedPost'
+        'footer footer footer footer footer';
+
+    row-gap: 5px;
+    column-gap: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    /*******/
+}
+
+.header {
+    grid-area: header;
+    background-color: #37d2f8;
+}
+
+
+
+
+
+
+.hero {
+
+    grid-area: hero;
+    background-color: #dfcadd;
+
+}
+
+
+.Main {
+
+    grid-area: mainContent;
+    background-color: #edc527;
+
+}
+
+.Sidebar {
+
+    grid-area: sideBar;
+    background-color: #80c268;
+
+}
+
+
+
+.Images {
+
+    grid-area: relatedImages;
+    background-color: #00b68d;
+
+}
+
+.Extra {
+
+    grid-area: extraContent;
+    background-color: #898987;
+
+}
+
+.Posts {
+
+    grid-area: RelatedPost;
+    background-color: #ffcdd4;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: #fea500;
+
+}

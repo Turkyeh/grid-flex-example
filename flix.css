@@ -1,0 +1,133 @@
+.perent {
+
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 770px;
+    /**/
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header {
+
+    background-color: #23d4ff;
+    height: 9%;
+}
+
+
+
+
+div {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 19.5%;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    width: 59.5%;
+    justify-content: space-between;
+
+}
+
+
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+
+
+
+
+
+.hero {
+
+    background-color: #dfcadd;
+
+    height: 40%;
+
+}
+
+
+.Main {
+
+    height: 79.5%;
+    background-color: #edc527;
+
+}
+
+.Extra {
+    height: 20%;
+
+    background-color: #7b7b74;
+
+}
+
+.Sidebar {
+
+    height: 59.5%;
+
+    background-color: #8dca77;
+
+}
+
+.Images {
+    width: 79.5%;
+
+    background-color: #00b68d;
+
+}
+
+.Posts {
+    width: 20%;
+
+
+    background-color: #e0afb5;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #fea500;
+    height: 10%;
+    justify-content: center;
+}
