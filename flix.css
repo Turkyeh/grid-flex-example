@@ -1,15 +1,13 @@
-.perent {
+body {
 
-
-    display: flex;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-size: larger;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 770px;
-    /**/
+    height: 100vh;
     width: 100%;
-    color: rgb(255, 255, 255);
-
 }
 
 main {
@@ -23,7 +21,7 @@ main {
 
 .header {
 
-    background-color: #23d4ff;
+    background-color: #50d7f9;
     height: 9%;
 }
 
@@ -38,7 +36,7 @@ div {
 
 
 
-.row {
+.down {
     display: flex;
     flex-direction: row;
     height: 19.5%;
@@ -48,15 +46,7 @@ div {
 
 }
 
-.col1 {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: space-between;
-
-}
-
-.col2 {
+.Right {
     display: flex;
     flex-direction: column;
     width: 59.5%;
@@ -65,6 +55,13 @@ div {
 }
 
 
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+
+}
 
 .mid {
     display: flex;
@@ -83,6 +80,7 @@ div {
 
     background-color: #dfcadd;
 
+    /* margin-bottom: 8px,; */
     height: 40%;
 
 }
@@ -98,7 +96,7 @@ div {
 .Extra {
     height: 20%;
 
-    background-color: #7b7b74;
+    background-color: #898987;
 
 }
 
@@ -106,7 +104,7 @@ div {
 
     height: 59.5%;
 
-    background-color: #8dca77;
+    background-color: #80c268;
 
 }
 
@@ -121,7 +119,7 @@ div {
     width: 20%;
 
 
-    background-color: #e0afb5;
+    background-color: #ffcdd4;
 
 }
 
